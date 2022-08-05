@@ -12,7 +12,7 @@ namespace AdapterExample
     {
         public static void OutputInfo(INetworkCard networkCard)
         {
-            Console.WriteLine($"Название: {networkCard.name} \nОписание: {networkCard.GetDescription()}");
+            Console.WriteLine($"Name: {networkCard.name} \nDescription: {networkCard.GetDescription()}");
         }
         public static void OutputInfo(IMonitor monitor)
         {
